@@ -1,8 +1,8 @@
-package com.accounts.accounts.dao;
+package com.accounts.ambar.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.accounts.accounts.entity.UserAccount;
+import com.accounts.ambar.entity.UserAccount;
 
 public interface UserDao extends JpaRepository<UserAccount, Long>{
 

@@ -1,4 +1,4 @@
-package com.accounts.accounts.controller;
+package com.accounts.ambar.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.accounts.accounts.entity.UserAccount;
-import com.accounts.accounts.services.UserService;
+import com.accounts.ambar.entity.UserAccount;
+import com.accounts.ambar.services.UserService;
 
 @RestController
 public class MyController {
@@ -31,7 +31,7 @@ public class MyController {
 	
 	//get the user account by id
 	@GetMapping("/users/{userId}")
-	public UserAccount getUsers(@PathVariable String userId) 
+	public UserAccount getUsersById(@PathVariable String userId) 
 	{
 		return this.userService.getUsers(Long.parseLong(userId));
 	}

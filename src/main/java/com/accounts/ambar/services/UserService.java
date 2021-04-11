@@ -1,8 +1,8 @@
-package com.accounts.accounts.services;
+package com.accounts.ambar.services;
 
 import java.util.List;
 
-import com.accounts.accounts.entity.UserAccount;
+import com.accounts.ambar.entity.UserAccount;
 
 public interface UserService {
 	

@@ -1,4 +1,4 @@
-package com.accounts.accounts.entity;
+package com.accounts.ambar.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

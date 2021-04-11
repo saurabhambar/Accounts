@@ -1,4 +1,4 @@
-package com.accounts.accounts;
+package com.accounts.ambar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

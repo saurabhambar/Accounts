@@ -1,12 +1,12 @@
-package com.accounts.accounts.services;
+package com.accounts.ambar.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.accounts.accounts.dao.UserDao;
-import com.accounts.accounts.entity.UserAccount;
+import com.accounts.ambar.entity.UserAccount;
+import com.accounts.ambar.repository.UserDao;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -23,7 +23,8 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public UserAccount getUsers(long userId) {
 		// TODO Auto-generated method stub
-		return userDao.getOne(userId);
+		
+		return userDao.findById(userId).get();
 	}
 
 	@Override
