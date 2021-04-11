@@ -1,4 +1,4 @@
-package com.accounts.accounts;
+package com.accounts.ambar;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
